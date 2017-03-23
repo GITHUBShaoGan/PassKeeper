@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">PassKeeper</string>
+    <string name="title_home">密码</string>
+    <string name="title_dashboard">目录/标签</string>
+    <string name="title_notifications">收藏夹</string>
+
+    <string name="title_activity_master_create">创建主密码</string>
+    <string name="title_activity_master_confirm">确认主密码</string>
+    <string name="title_activity_master_check">校验主密码</string>
+    <string name="title_activity_pass_cat">请选择密码类型</string>
+    <string name="title_activity_web_new">新建网站密码</string>
+    <string name="title_activity_web_edit">编辑网站密码</string>
+
+    <string name="error_illegal_lenofmaster">密码长度应该在4-16位之间</string>
+    <string name="error_empty_master">密码不能为空</string>
+    <string name="error_empty_intent">Intent为空或Intent不含值</string>
+    <string name="error_master">获取的主密码有误</string>
+    <string name="error_cannot_restore_instance">加载内存信息出错</string>
+    <string name="error_master_confirm">两次输入不一致</string>
+    <string name="error_data_tamper">数据被恶意篡改</string>origin
+    <string name="error_unknown">未知错误</string>
+    <string name="error_validate_master">主密码校验失败</string>
+    <string name="error_no_userconfig">未找到主密码</string>
+
+    <string name="title_cat_website">网站</string>
+    <string name="title_cat_bankcard">银行卡</string>
+    <string name="title_cat_server">服务器</string>
+    <string name="title_cat_wifi">Wifi</string>
+    <string name="title_cat_other">其他</string>
+
+    <string name="desc_cat_website">各个网站的账户信息</string>
+    <string name="desc_cat_bankcard">各家银行的银行卡信息</string>
+    <string name="desc_cat_server">云服务器的IP，端口，用户名信息</string>
+    <string name="desc_cat_wifi">无线Wifi的信息</string>
+    <string name="desc_cat_other">默认分类，只包含账号和密码</string>
+
+    <string name="btn_ok">确定</string>
+
+    <string name="hint_master">主密码</string>
+    <string name="hint_pass_title">标题</string>
+    <string name="hint_pass_remark">备注</string>
+</resources>
